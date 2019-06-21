@@ -1,6 +1,11 @@
-# How to set .terraformrc in a custom location and use multiple workspaces
+# How to set .terraformrc in a custom location
 
 ## Prerequisites
+
+- git
+- terraform (>=0.11.13)
+- terraform cloud subscription (paid or free)
+- terraform token
 
 ## How to run
 
@@ -20,7 +25,7 @@ credentials "app.terraform.io" {
 ```
 
 
-### Set `env vars` for `.terraformrc` filr location
+### Set `env vars` for `.terraformrc` file location
 
 ```
 export TF_CLI_CONFIG_FILE=/path/to/.terraformrc
